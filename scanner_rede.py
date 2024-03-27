@@ -1,8 +1,8 @@
 import nmap
 import pandas as pd
 
-destino = '10.27.81.0/23'
-port = '5985'
+destino = '192.168.0.0/24'
+port = '22'
 
 nm = nmap.PortScanner()
 nm.scan(hosts = destino, ports = port)
